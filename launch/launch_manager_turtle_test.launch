@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="scheduler" type="scheduler_launch.py" name="launch_manager_node" output="screen">
+    <param name="test_autostart_module" value="turtle"/>
+    <param name="test_start_delay_sec" value="1.0"/>
+  </node>
+</launch>

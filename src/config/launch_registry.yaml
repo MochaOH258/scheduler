@@ -1,5 +1,0 @@
-modules:
-    turtle:
-        package: scheduler
-        launch: turtle.launch
-        description: "小乌龟测试模块，包含小乌龟和让其画圈的控制节点"
