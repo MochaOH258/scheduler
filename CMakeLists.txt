@@ -9,7 +9,7 @@ project(scheduler)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  
+  rospy
   std_msgs
   geometry_msgs
   mavros_msgs
@@ -107,7 +107,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES scheduler
-  CATKIN_DEPENDS roscpp std_msgs geometry_msgs mavros_msgs
+  CATKIN_DEPENDS roscpp rospy std_msgs geometry_msgs mavros_msgs
 #  DEPENDS system_lib
 )
 
